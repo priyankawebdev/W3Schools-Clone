@@ -306,16 +306,9 @@ footer div a {
 footer ul a :hover {
   color: rgb(233, 233, 25);
 }
-footer>h3 {
-    color: rgba(255, 255, 255, 0.575);
-}
-footer>h3>name {
-    padding: 5px;
-    outline: 1px dotted rgb(94, 91, 91);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-footer>h3>name:hover {
-    color:rgb(255, 255, 255);
-    font-weight: 900;
+@media screen and (max-width:1440px){
+    
+    body>ul>li>a {
+        font-size: small;
+    }
 }
